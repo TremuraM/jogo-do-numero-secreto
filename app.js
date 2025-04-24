@@ -8,7 +8,7 @@ while (isNaN(numeroMaximo) || numeroMaximo < 1) {
 // gerar um número secreto entre 1 e numeroMaximo
 let numeroSecreto = Math.floor(Math.random() * numeroMaximo) + 1; // número entre 1 e numeroMaximo
 console.log(numeroSecreto);
-let chute = parseInt(prompt('Escolha um número de 1 a ' + numeroMaximo));
+let chute = parseInt(prompt('Escolha um número de 01 a ' + numeroMaximo));
 // verificar se o chute é inválido'));
 let tentativas = 1;
 
